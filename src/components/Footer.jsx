@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <section className=" footer-icons">
-        <div className="container">
+        <div className="container d-flex justify-content-between">
           <div className=" d-flex mx-3 align-items-center">
             <img src="./public/img/buy-comics-digital-comics.png" alt="DC" />
             <p>DIGITAL COMICS</p>
@@ -79,7 +79,7 @@ function Footer() {
         </div>
       </section>
       <section className="footer-sign">
-        <div className="container">
+        <div className="container d-flex justify-content-between">
           <button>SIGN UP-NOW!</button>
           <div className="d-flex">
             <h5>FOLLOW US</h5>
