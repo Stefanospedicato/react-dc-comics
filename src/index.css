@@ -52,12 +52,11 @@ header ul li a {
 /* Main */
 
 main {
-  width: 100%;
+  max-width: 100%;
   background-color: #1C1C1C;
 }
 
 .container {
-  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -82,6 +81,9 @@ footer {
   height: 150px;
   color: white;
   font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-icons img {
@@ -89,12 +91,37 @@ footer {
   margin-right: 2rem;
 }
 
+.dc-comics {
+  position: relative;
+  top: -95px;
+  left: 0;
+}
+
+.dc {
+  position: relative;
+  top: -100px;
+  left: 0;
+}
+
+.sites {
+  position: relative;
+  top: -155px;
+  left: 0;
+}
+
+
+
 .footer-dc {
   height: 370px;
   background-image: url('../public/img/footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
   width: 100%;
   font-size: 0.8rem;
   overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .footer-dc h5 {
@@ -102,6 +129,7 @@ footer {
   position: relative;
   top: 0;
   left: 30px;
+  margin-bottom: 15px;
 }
 
 .footer-dc ul {
@@ -121,19 +149,7 @@ footer {
 .footer-dc figure img {
   position: relative;
   left: 250px;
-  top: 0;
-}
-
-.footer-dc .dc {
-  position: relative;
-  top: -5px;
-  left: 0;
-}
-
-.footer-dc .sites {
-  position: relative;
   top: -60px;
-  left: 0;
 }
 
 .footer-sign {
