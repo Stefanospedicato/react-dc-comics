@@ -46,6 +46,7 @@ header ul li a {
   padding: 15px;
   font-size: 0.7rem;
   padding-bottom: 53px;
+  font-weight: 600;
 }
 
 /* Main */
@@ -73,6 +74,13 @@ main h2 {
 .footer-icons {
   background-color: #0282F9;
   height: 150px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.footer-icons img {
+  width: 50px;
+  margin-right: 2rem;
 }
 
 .footer-dc {
