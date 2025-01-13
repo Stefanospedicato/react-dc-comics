@@ -21,6 +21,12 @@ header {
 
 header figure img {
   width: 80px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+header figure img:hover {
+  transform: scale(1.2);
 }
 
 header ul {
@@ -86,9 +92,23 @@ footer {
   justify-content: space-between;
 }
 
+.footer-icons p {
+  cursor: pointer;
+}
+
+.footer-icons p:hover {
+  text-decoration: underline;
+}
+
 .footer-icons img {
   width: 50px;
   margin-right: 2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.footer-icons img:hover {
+  transform: scale(1.1);
 }
 
 .dc-comics {
@@ -165,7 +185,7 @@ footer {
   padding: 10px;
   color: white;
   background-color: #303030;
-  transition: all 1s;
+  transition: all .5s;
 }
 
 .footer-sign button:hover {
@@ -189,7 +209,7 @@ footer {
   margin-left: 15px;
   margin-top: 20px;
   cursor: pointer;
-  transition: all 1s;
+  transition: all .5s;
 }
 
 .footer-sign img:hover {
