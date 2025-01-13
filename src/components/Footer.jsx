@@ -1,6 +1,16 @@
 function Footer() {
   return (
-    <footer>Footer</footer>
+    <footer>
+      <section className="container footer-icons">
+
+      </section>
+      <section className="container footer-dc">
+
+      </section>
+      <section className="container footer-sign">
+
+      </section>
+    </footer>
   )
 }
 
