@@ -1,5 +1,12 @@
 import Icons from './Icons'
 
+const dcComicsList = ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"];
+const shopList = ['Shop DC', 'Shop DC Collectibles']
+const dcList = ["Terms of Use", "Privacy policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"];
+const sitesList = ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"];
+
+
+
 function Footer() {
   return (
     <footer>
@@ -9,24 +16,33 @@ function Footer() {
           <div className="dc-comics">
             <h5>DC COMICS</h5>
             <ul>
-              <li><a className="list-item" href="">Characters</a></li>
+              {dcComicsList.map(item => (
+                <li><a className="list-item" href="">{item}</a></li>
+              ))}
+              {/* <li><a className="list-item" href="">Characters</a></li>
               <li><a className="list-item" href="">Comics</a></li>
               <li><a className="list-item" href="">Movies</a></li>
               <li><a className="list-item" href="">TV</a></li>
               <li><a className="list-item" href="">Games</a></li>
               <li><a className="list-item" href="">Videos</a></li>
-              <li><a className="list-item" href="">News</a></li>
+              <li><a className="list-item" href="">News</a></li> */}
             </ul>
             <h5>SHOP</h5>
             <ul>
-              <li><a className="list-item" href="">Shop DC</a></li>
-              <li><a className="list-item" href="">Shop DC Collectibles</a></li>
+              {shopList.map(item => (
+                <li><a className="list-item" href="">{item}</a></li>
+              ))}
+              {/* <li><a className="list-item" href="">Shop DC</a></li>
+              <li><a className="list-item" href="">Shop DC Collectibles</a></li> */}
             </ul>
           </div>
           <div className="dc">
             <h5>DC</h5>
             <ul>
-              <li><a className="list-item" href="">Terms of Use</a></li>
+              {dcList.map(item => (
+                <li><a className="list-item" href="">{item}</a></li>
+              ))}
+              {/* <li><a className="list-item" href="">Terms of Use</a></li>
               <li><a className="list-item" href="">Privacy policy (New)</a></li>
               <li><a className="list-item" href="">Ad Choices</a></li>
               <li><a className="list-item" href="">Advertising</a></li>
@@ -36,17 +52,20 @@ function Footer() {
               <li><a className="list-item" href="">CPSC Certificates</a></li>
               <li><a className="list-item" href="">Ratings</a></li>
               <li><a className="list-item" href="">Shop Help</a></li>
-              <li><a className="list-item" href="">Contact Us</a></li>
+              <li><a className="list-item" href="">Contact Us</a></li> */}
             </ul>
           </div>
           <div className="sites">
             <h5>SITES</h5>
             <ul>
-              <li><a className="list-item" href="">DC</a></li>
+              {sitesList.map(item => (
+                <li><a className="list-item" href="">{item}</a></li>
+              ))}
+              {/* <li><a className="list-item" href="">DC</a></li>
               <li><a className="list-item" href="">MAD Magazine</a></li>
               <li><a className="list-item" href="">DC Kids</a></li>
               <li><a className="list-item" href="">DC Universe</a></li>
-              <li><a className="list-item" href="">DC Power Visa</a></li>
+              <li><a className="list-item" href="">DC Power Visa</a></li> */}
             </ul>
           </div>
           <div className="big-logo">

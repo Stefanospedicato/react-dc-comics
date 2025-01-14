@@ -22,6 +22,7 @@ const Icons = () => {
           <img src="./public/img/buy-dc-power-visa.svg" alt="VISA" />
           <p>DC POWER VISA</p>
         </div>
+
       </div>
     </section>
   )
