@@ -67,8 +67,14 @@ main {
   align-items: center;
 }
 
+.jumbo {
+  height: 400px;
+  background-image: url('../public/img/jumbotron.jpg');
+  background-size: cover;
+}
+
 .content {
-  height: 130px;
+  height: 670px;
 }
 
 main h2 {
