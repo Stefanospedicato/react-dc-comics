@@ -1,5 +1,3 @@
-const menu = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FAN', 'NEWS', 'SHOP']
-
 const Header = (props) => {
   const { menu } = props
   return (
