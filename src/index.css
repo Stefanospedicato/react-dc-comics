@@ -77,10 +77,6 @@ main {
     border: 0px;
     font-size: 1.4rem;
     font-weight: bold;
-
-    &:hover {
-      opacity: .8;
-    }
   }
 }
 
@@ -255,15 +251,16 @@ footer {
   justify-content: space-between;
 }
 
-.footer-sign button {
-  border-color: #0282F9;
+.footer-sign p {
+  border: 3px solid #0282F9;
   padding: 10px;
   color: white;
   background-color: #303030;
   transition: all .5s;
+  cursor: pointer;
 }
 
-.footer-sign button:hover {
+.footer-sign p:hover {
   transform: scale(1.1);
 }
 

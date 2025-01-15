@@ -60,7 +60,7 @@ function Footer() {
 
       <section className="footer-sign">
         <div className="container d-flex justify-content-between">
-          <button>SIGN UP-NOW!</button>
+          <p>SIGN UP-NOW!</p>
           <div className="d-flex">
             <h5>FOLLOW US</h5>
             {socialIconsImgs.map((item, index) => (
