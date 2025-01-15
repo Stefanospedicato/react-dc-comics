@@ -19,14 +19,14 @@ function Footer() {
           <div className="dc-comics">
             <h5>DC COMICS</h5>
             <ul>
-              {dcComicsList.map(item => (
-                <li><a className="list-item" href="">{item}</a></li>
+              {dcComicsList.map((item, index) => (
+                <li key={`dc-${index}`} ><a className="list-item" href="">{item}</a></li>
               ))}
             </ul>
             <h5>SHOP</h5>
             <ul>
-              {shopList.map(item => (
-                <li><a className="list-item" href="">{item}</a></li>
+              {shopList.map((item, index) => (
+                <li key={`sh-${index}`}><a className="list-item" href="">{item}</a></li>
               ))}
             </ul>
           </div>
@@ -34,8 +34,8 @@ function Footer() {
           <div className="dc">
             <h5>DC</h5>
             <ul>
-              {dcList.map(item => (
-                <li><a className="list-item" href="">{item}</a></li>
+              {dcList.map((item, index) => (
+                <li key={`dcL-${index}`}><a className="list-item" href="">{item}</a></li>
               ))}
             </ul>
           </div>
@@ -43,8 +43,8 @@ function Footer() {
           <div className="sites">
             <h5>SITES</h5>
             <ul>
-              {sitesList.map(item => (
-                <li><a className="list-item" href="">{item}</a></li>
+              {sitesList.map((item, index) => (
+                <li key={`sites-${index}`}><a className="list-item" href="">{item}</a></li>
               ))}
             </ul>
           </div>
@@ -64,7 +64,7 @@ function Footer() {
           <div className="d-flex">
             <h5>FOLLOW US</h5>
             {socialIconsImgs.map((item, index) => (
-              <img src={item} alt={socialIconsAlt[index]} />
+              <img key={`soc-img-${index}`} src={item} alt={socialIconsAlt[index]} />
             ))}
           </div>
         </div>

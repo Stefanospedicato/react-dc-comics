@@ -8,8 +8,8 @@ const Icons = () => {
     <section className=" footer-icons">
       <div className="container d-flex justify-content-between">
         {pArray.map((item, index) => (
-          <div className="d-flex mx-3 align-items-center">
-            <img src={imgSrcArray[index]} alt={imgAltArray[index]} />
+          <div key={`p-${index}`} className="d-flex mx-3 align-items-center">
+            <img key={`img-${index}`} src={imgSrcArray[index]} alt={imgAltArray[index]} />
             <p>{item}</p>
           </div>
         ))}
