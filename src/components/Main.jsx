@@ -6,7 +6,7 @@ function Main() {
     <main>
       <div className="jumbo">
         <div className="container">
-          <button className="btn btn-primary align-items-center">CURRENT SERIES</button>
+          <button className="align-items-center">CURRENT SERIES</button>
         </div>
       </div>
       <div className="container content">
@@ -15,7 +15,7 @@ function Main() {
         </div>
       </div>
       <div className='d-flex justify-content-center'>
-        <button className="btn load btn-primary">LOAD MORE</button>
+        <button className="load">LOAD MORE</button>
       </div>
     </main>
   );

@@ -65,43 +65,77 @@ main {
 .container {
   display: flex;
   align-items: center;
+
+  button {
+    position: relative;
+    top: 380px;
+    left: -10px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: #0282F9;
+    border: 0px;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
 }
 
-button {
+.load {
+  color: white;
+  background-color: #0282F9;
+  border: 0px;
+  width: 180px;
+  height: 40px;
   position: relative;
-  top: 380px;
-  left: -10px;
-  width: 250px;
+  top: -30px;
+  left: 0;
+
+  &:hover {
+    opacity: .8;
+  }
+
 }
 
 .card-container {
   width: 1300px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 60px;
 
-}
+  .cards {
+    color: white;
+    flex-basis: calc(100% / 6);
+    gap: 10px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
 
-.cards {
-  color: white;
-  flex-basis: calc(100% / 6);
-  gap: 10px;
-  text-transform: uppercase;
+    .img-box {
+      width: 185px;
+      height: 185px;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 20px;
+    }
 
-  .img-box {
-    width: 185px;
-    height: 185px;
-    overflow: hidden;
-    position: relative;
+    img {
+      width: 185px;
+      margin-top: 30px;
+      position: absolute;
+      top: -30px;
+      left: 0;
+
+      &:hover {
+        opacity: .5;
+      }
+    }
+
   }
 
-  img {
-    width: 185px;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    position: absolute;
-    top: -30px;
-    left: 0;
-  }
 }
 
 .jumbo {
