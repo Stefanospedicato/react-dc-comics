@@ -89,6 +89,8 @@ main {
   position: relative;
   top: -30px;
   left: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
 
   &:hover {
     opacity: .8;
